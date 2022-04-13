@@ -41,6 +41,7 @@ body{
 	font-weight: 400;
 	background-color: #fff;
 	color: #767676;
+	overflow: hidden;
 }
 svg{
 	fill: currentcolor;
@@ -825,6 +826,8 @@ body.loaded .overlay_effect:after{
 	height: auto;
 	clear: both;
 	float: left;
+	background: none;
+	border: none;
 }
 .shane_tm_button a{
 	text-decoration: none;
@@ -878,7 +881,7 @@ body.loaded .overlay_effect:after{
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #f9f9f9;
+	/* background-color: #f9f9f9; */
 	padding: 150px 0px 100px 0px;
 	margin-bottom: 138px;
 }
@@ -1058,7 +1061,7 @@ body.loaded .overlay_effect:after{
 	float: left;
 	overflow: hidden;
 	padding: 50px;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 }
 .shane_tm_modalbox .description_wrap::-webkit-scrollbar{
   width: 11px;
@@ -1094,6 +1097,7 @@ body.loaded .overlay_effect:after{
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 37px;
+	height: 600px;
 }
 .shane_tm_modalbox .popup_details .top_image img{
 	position: relative;
@@ -1107,7 +1111,7 @@ body.loaded .overlay_effect:after{
 	right: 0;
 	bottom: 0;
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	background-repeat: no-repeat;
 }
 .shane_tm_modalbox .portfolio_main_title{
@@ -1134,7 +1138,7 @@ body.loaded .overlay_effect:after{
 	display: flex;
 	margin-bottom: 60px;
 }
-.shane_tm_modalbox .main_details .textbox{
+/* .shane_tm_modalbox .main_details .textbox{
 	width: 70%;
 	padding-right: 40px;
 }
@@ -1211,7 +1215,7 @@ body.loaded .overlay_effect:after{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-}
+} */
 
 
 
@@ -1294,6 +1298,31 @@ body.loaded .overlay_effect:after{
 .shane_tm_skills .right{
 	width: 50%;
 	padding-left: 50px;
+}
+
+.shane_tm_skills .right .skills-grid {
+	display: grid;
+	gap: 40px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.shane_tm_skills .right .skills-grid .skill {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.shane_tm_skills .right .skills-grid .skill .skill-img {
+	height: 50px;
+}
+
+.shane_tm_skills .right .skills-grid .skill .skill-img img {
+	height: 100%;
+}
+
+.shane_tm_skills .right .skills-grid .skill h6 {
+	text-transform: uppercase;
+	margin-top: 10px;
 }
 
 /*---------------------------------------------------*/
@@ -2187,4 +2216,5 @@ body.loaded .overlay_effect:after{
 	.shane_tm_portfolio .portfolio_list ul li{padding: 0px;width: 100%;}
 	.shane_tm_news .news_list ul{margin: 0px;}
 	.shane_tm_news .news_list ul li{padding: 0px;width: 100%;}
+	.shane_tm_skills .right .skills-grid {grid-template-columns: repeat(2, 1fr);}
 }

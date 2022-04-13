@@ -4000,7 +4000,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 function initMap() {
 
     var map = new google.maps.Map(document.getElementById('ieatmaps'), {
-      center: {lat: 34.0937458, lng: -118.1},
+      center: {lat: 34.056073, lng: -118.236403},
       zoom: 9,
       styles: [
     {
@@ -4172,7 +4172,7 @@ function initMap() {
     });
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(34.0900, -117.8903)
+        position: new google.maps.LatLng(34.056073, -118.236403)
         , title: 'ASL'
         , map : map
 

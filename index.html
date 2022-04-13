@@ -9,6 +9,8 @@
 
 	<meta name="description" content="Javy's Professional Web Developer Portfolio">
 	<meta name="author" content="Javy">
+	<meta property="og:url" content="https://javycodes.com/" />
+	<meta property="og:image" content="https://javycodes.com/src/img/profile.png" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -121,17 +123,21 @@
 					<div class="right">
 						<div class="shane_tm_title wow fadeInUp" data-wow-duration="1.5s">
 							<span>About Me</span>
-							<h3>Skilled web developer based in</br> Los Angeles, USA - open to remote</h3>
+							<h3>Skilled web developer based in Los Angeles, USA - open to remote</h3>
 						</div>
 						<div class="text wow fadeInUp" data-wow-duration="1.5s">
 							<p> I'm a highly skilled developer and professional who earned a Full 
 								Stack Web Development certificate from the University of California, Los Angeles (UCLA). 
-								I'm also known as a problem-solver and someone realiable who simply gets things done.
+								I'm also known as a problem-solver and someone reliable who simply gets things done.
 							</p>
 							<!-- <p>I'm web designer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p> -->
 						</div>
 						<div class="shane_tm_button wow fadeInUp" data-wow-duration="1.5s">
-							<a href="img/resume/resume.jpg" download>
+							<a 
+                                download='Resume - Javier Romeo Vazquez'
+                                href='./src/files/resume.pdf'
+                                aria-label='download resume button'
+                            >
 								Download Resume
 							</a>
 						</div>
@@ -141,6 +147,114 @@
 		</div>
 	</div>
 	<!-- /ABOUT -->
+
+	<!-- SKILLS -->
+	<div class="shane_tm_section">
+		<div class="shane_tm_skills">
+			<div class="container">
+				<div class="skills_inner">
+					<div class="left wow fadeInLeft" data-wow-duration="1.5s">
+						<div class="shane_tm_title">
+							<h3>Some of my skills and technologies I've worked with</h3>
+						</div>
+						<div class="text">
+							<p>
+								Expert skills in HTML and CSS with a focus on creating beautiful responsive landing pages and HTML emails across all devices. 
+							</p>
+						</div>
+					</div>
+					<div class="right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+						<!-- <div class="tokyo_progress">
+							<div class="progress_inner" data-value="95">
+								<span><span class="label">Web Development</span><span class="number">95%</span></span>
+								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+							</div>
+							<div class="progress_inner" data-value="80" >
+								<span><span class="label">Brand Identity</span><span class="number">80%</span></span>
+								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+							</div>
+							<div class="progress_inner" data-value="90">
+								<span><span class="label">Logo Design</span><span class="number">90%</span></span>
+								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+							</div>
+						</div> -->
+
+						<div class="skills-grid">
+							<div class="skill">
+								<div class="skill-img">
+									<img src="./src/img/html.svg" alt="skill icon">
+								</div>
+								<h6>
+									HTML
+								</h6>
+							</div>
+							<div class="skill">
+								<div class="skill-img">
+									<img src="./src/img/css.svg" alt="skill icon">
+								</div>
+								<h6>
+									CSS
+								</h6>
+							</div>
+							<div class="skill">
+								<div class="skill-img">
+									<img src="./src/img/sass.svg" alt="skill icon">
+								</div>
+								<h6>
+									Sass
+								</h6>
+							</div>
+							<div class="skill">
+								<div class="skill-img">
+									<img src="./src/img/litmus.svg" alt="skill icon">
+								</div>
+								<h6>
+									Litmus
+								</h6>
+							</div>
+							<div class="skill">
+								<div class="skill-img">
+									<img src="./src/img/mailchimp.svg" alt="skill icon">
+								</div>
+								<h6>
+									Mailchimp
+								</h6>
+							</div>
+							<div class="skill">
+								<div class="skill-img">
+									<img src="./src/img/wordpress.svg" alt="skill icon">
+								</div>
+								<h6>
+									WordPress
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /SKILLS -->
+
+	<!-- VIDEO -->
+	<div class="shane_tm_section">
+		<div class="shane_tm_business_video">
+			<div class="bg">
+				<div class="image jarallax" data-speed="0" data-img-url="./src/img/comp-background.jpg"></div>
+				<div class="overlay"></div>
+			</div>
+			<div class="content">
+				<!-- <span class="rounded"><a class="popup-youtube" href="https://www.youtube.com/watch?v=iIrSCm_0Sj4"></a></span> -->
+				<h3 class="text wow fadeInUp" data-wow-duration="1.5s">
+					I deliver skilled and professional high quality work
+				</h3>
+				<div class="shane_tm_video_button wow fadeInUp" data-wow-duration="1.5s">
+					<a href="#contact">Get In Touch</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /VIDEO -->
 	
 	<!-- PORTFOLIO -->
 	<div class="shane_tm_section" id="portfolio">
@@ -167,87 +281,344 @@
 				<div class="shane_tm_portfolio_titles"></div>
 				<div class="portfolio_list wow fadeInLeft" data-wow-duration="1.5s">
 					<ul class="gallery_zoom">
-						<li class="youtube">
+						<li class="detail">
 							<div class="inner">
-								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Sweet Fruit" data-category="Design">
-									<a class="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Caesars" data-category="Landing Page">
+									<a href="https://xavy-romeo.github.io/caesars-landing/" target="_blank">
 										<img src="./src/img/thumbs/1-1.jpg" alt="" />
-										<div class="main" data-img-url="img/portfolio/1.jpg"></div>
+										<div class="main" data-img-url="./src/img/caesars-preview.jpg"></div>
 									</a>
 								</div>
 								<div class="mobile_title">
-									<h3>Sweet Fruit</h3>
-									<span>Design</span>
+									<h3>Caesars</h3>
+									<span>Landing Page</span>
 								</div>
-							</div>
-						</li>
-						<li class="vimeo">
-							<div class="inner">
-								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Good Present" data-category="Branding">
-									<a class="popup-vimeo" href="https://vimeo.com/337293658">
-										<img src="./src/img/thumbs/1-1.jpg" alt="" />
-										<div class="main" data-img-url="img/portfolio/2.jpg"></div>
-									</a>
+								
+								<div class="hidden_content">
+									<div class="popup_details">
+										<div class="main_details">
+											<p>View Live</p>
+											<!-- <div class="textbox">
+												<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible.</p>
+												<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they phase when they will represent the target product. Building mockups strikes the ideal balance ease of modification.</p>
+											</div>
+											<div class="detailbox">
+												<ul>
+													<li>
+														<span class="first">View Live</span>
+														<span>
+															<a href="">
+
+															</a>
+														</span>
+													</li>
+													<li>
+														<span class="first">Category</span>
+														<span><a href="#">Detail</a></span>
+													</li>
+													<li>
+														<span class="first">Date</span>
+														<span>March 07, 2021</span>
+													</li>
+												</ul>
+											</div> -->
+										</div>
+									</div>
 								</div>
-								<div class="mobile_title">
-									<h3>Good Present</h3>
-									<span>Branding</span>
-								</div>
-							</div>
-						</li>
-						<li class="soundcloud">
-							<div class="inner">
-								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Ice Cream" data-category="Photography">
-									<a class="soundcloude_link mfp-iframe audio" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-										<img src="./src/img/thumbs/1-1.jpg" alt="" />
-										<div class="main" data-img-url="img/portfolio/3.jpg"></div>
-									</a>
-								</div>
-								<div class="mobile_title">
-									<h3>Ice Cream</h3>
-									<span>Photography</span>
-								</div>
-							</div>
-						</li>
-						<li class="popup">
-							<div class="inner">
-								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Black Coffee" data-category="Design">
-									<a class="zoom" href="img/portfolio/4.jpg">
-										<img src="./src/img/thumbs/1-1.jpg" alt="" />
-										<div class="main" data-img-url="img/portfolio/4.jpg"></div>
-									</a>
-								</div>
-								<div class="mobile_title">
-									<h3>Black Coffee</h3>
-									<span>Design</span>
-								</div>
-							</div>
-						</li>
-						<li class="popup">
-							<div class="inner">
-								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Blue Lemon" data-category="Branding">
-									<a class="zoom" href="img/portfolio/5.jpg">
-										<img src="./src/img/thumbs/1-1.jpg" alt="" />
-										<div class="main" data-img-url="img/portfolio/5.jpg"></div>
-									</a>
-								</div>
-								<div class="mobile_title">
-									<h3>Blue Lemon</h3>
-									<span>Branding</span>
-								</div>
+								
 							</div>
 						</li>
 						<li class="detail">
 							<div class="inner">
-								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Sweet Cherry" data-category="Photography">
-									<a class="portfolio_popup" href="#">
+								<div class="entry shane_tm_portfolio_animation_wrap" data-title="HGTV" data-category="Newsletter Email">
+									<a href="https://xavy-romeo.github.io/hgtv-newsletter-email/" target="_blank">
 										<img src="./src/img/thumbs/1-1.jpg" alt="" />
-										<div class="main" data-img-url="img/portfolio/7.jpg"></div>
+										<div class="main" data-img-url="./src/img/hgtv-preview.jpg"></div>
 									</a>
 								</div>
 								<div class="mobile_title">
-									<h3>Sweet Cherry</h3>
-									<span>Photography</span>
+									<h3>HGTV</h3>
+									<span>Newsletter Email</span>
+								</div>
+								
+								<div class="hidden_content">
+									<div class="popup_details">
+										<div class="main_details">
+											<div class="textbox">
+												<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible.</p>
+												<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they phase when they will represent the target product. Building mockups strikes the ideal balance ease of modification.</p>
+											</div>
+											<div class="detailbox">
+												<ul>
+													<li>
+														<span class="first">Client</span>
+														<span>Alvaro Morata</span>
+													</li>
+													<li>
+														<span class="first">Category</span>
+														<span><a href="#">Detail</a></span>
+													</li>
+													<li>
+														<span class="first">Date</span>
+														<span>March 07, 2021</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="additional_images">
+											<ul>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/1.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/2.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/3.jpg"></div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</li>
+						<li class="detail">
+							<div class="inner">
+								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Relais & Chateaux" data-category="Newsletter Email">
+									<a href="https://xavy-romeo.github.io/relais-newsletter-email/" target="_blank">
+										<img src="./src/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="./src/img/relais-preview.jpg"></div>
+									</a>
+								</div>
+								<div class="mobile_title">
+									<h3>Relais & Chateaux</h3>
+									<span>Newsletter Email</span>
+								</div>
+								
+								<div class="hidden_content">
+									<div class="popup_details">
+										<div class="main_details">
+											<div class="textbox">
+												<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible.</p>
+												<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they phase when they will represent the target product. Building mockups strikes the ideal balance ease of modification.</p>
+											</div>
+											<div class="detailbox">
+												<ul>
+													<li>
+														<span class="first">Client</span>
+														<span>Alvaro Morata</span>
+													</li>
+													<li>
+														<span class="first">Category</span>
+														<span><a href="#">Detail</a></span>
+													</li>
+													<li>
+														<span class="first">Date</span>
+														<span>March 07, 2021</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="additional_images">
+											<ul>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/1.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/2.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/3.jpg"></div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</li>
+						<li class="detail">
+							<div class="inner">
+								<div class="entry shane_tm_portfolio_animation_wrap" data-title="Coach" data-category="Welcome Email">
+									<a href="https://xavy-romeo.github.io/coach-welcome-email/" target="_blank">
+										<img src="./src/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="./src/img/coach-preview.jpg"></div>
+									</a>
+								</div>
+								<div class="mobile_title">
+									<h3>Coach</h3>
+									<span>Welcome Email</span>
+								</div>
+								
+								<div class="hidden_content">
+									<div class="popup_details">
+										<div class="main_details">
+											<div class="textbox">
+												<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible.</p>
+												<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they phase when they will represent the target product. Building mockups strikes the ideal balance ease of modification.</p>
+											</div>
+											<div class="detailbox">
+												<ul>
+													<li>
+														<span class="first">Client</span>
+														<span>Alvaro Morata</span>
+													</li>
+													<li>
+														<span class="first">Category</span>
+														<span><a href="#">Detail</a></span>
+													</li>
+													<li>
+														<span class="first">Date</span>
+														<span>March 07, 2021</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="additional_images">
+											<ul>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/1.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/2.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/3.jpg"></div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</li>
+						<li class="detail">
+							<div class="inner">
+								<div class="entry shane_tm_portfolio_animation_wrap" data-title="CPK" data-category="Promotional Email">
+									<a href="https://xavy-romeo.github.io/cpk-promo-email/" target="_blank">
+										<img src="./src/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="./src/img/cpk-preview.jpg"></div>
+									</a>
+								</div>
+								<div class="mobile_title">
+									<h3>CPK</h3>
+									<span>Promotional Email</span>
+								</div>
+								
+								<div class="hidden_content">
+									<div class="popup_details">
+										<div class="main_details">
+											<div class="textbox">
+												<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible.</p>
+												<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they phase when they will represent the target product. Building mockups strikes the ideal balance ease of modification.</p>
+											</div>
+											<div class="detailbox">
+												<ul>
+													<li>
+														<span class="first">Client</span>
+														<span>Alvaro Morata</span>
+													</li>
+													<li>
+														<span class="first">Category</span>
+														<span><a href="#">Detail</a></span>
+													</li>
+													<li>
+														<span class="first">Date</span>
+														<span>March 07, 2021</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="additional_images">
+											<ul>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/1.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/2.jpg"></div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<div class="my_image">
+															<img src="./src/img/thumbs/4-2.jpg" alt="" />
+															<div class="main" data-img-url="img/portfolio/3.jpg"></div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</li>
+						<li class="detail">
+							<div class="inner">
+								<div class="entry shane_tm_portfolio_animation_wrap" data-title="AMC" data-category="Transactional Email">
+									<a href="https://xavy-romeo.github.io/amc-transactional-email/" target="_blank">
+										<img src="./src/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="./src/img/amc-preview.jpg"></div>
+									</a>
+								</div>
+								<div class="mobile_title">
+									<h3>AMC</h3>
+									<span>Transactional Email</span>
 								</div>
 								
 								<div class="hidden_content">
@@ -314,63 +685,6 @@
 	</div>
 	<!-- /PORTFOLIO -->
 
-	<!-- VIDEO -->
-	<div class="shane_tm_section">
-		<div class="shane_tm_business_video">
-			<div class="bg">
-				<div class="image jarallax" data-speed="0" data-img-url="./src/img/comp-background.jpg"></div>
-				<div class="overlay"></div>
-			</div>
-			<div class="content">
-				<!-- <span class="rounded"><a class="popup-youtube" href="https://www.youtube.com/watch?v=iIrSCm_0Sj4"></a></span> -->
-				<h3 class="text wow fadeInUp" data-wow-duration="1.5s">
-					I deliver skilled and professional high quality work
-				</h3>
-				<div class="shane_tm_video_button wow fadeInUp" data-wow-duration="1.5s">
-					<a class="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">Download Resume</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /VIDEO -->
-
-	<!-- SKILLS -->
-	<div class="shane_tm_section">
-		<div class="shane_tm_skills">
-			<div class="container">
-				<div class="skills_inner">
-					<div class="left wow fadeInLeft" data-wow-duration="1.5s">
-						<div class="shane_tm_title">
-							<h3>I have high skills in developing and programming</h3>
-						</div>
-						<div class="text">
-							<p>
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, quia debitis quidem hic minus possimus explicabo excepturi voluptates perferendis ratione?
-							</p>
-						</div>
-					</div>
-					<div class="right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
-						<!-- <div class="tokyo_progress">
-							<div class="progress_inner" data-value="95">
-								<span><span class="label">Web Development</span><span class="number">95%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-							<div class="progress_inner" data-value="80" >
-								<span><span class="label">Brand Identity</span><span class="number">80%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-							<div class="progress_inner" data-value="90">
-								<span><span class="label">Logo Design</span><span class="number">90%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /SKILLS -->
-	
 	<!-- TALK -->
 	<div class="shane_tm_section" id="contact">
 		<div class="shane_tm_talk">
@@ -402,27 +716,27 @@
 			<div class="wrapper">
 				<div class="left">
 					<div class="fields">
-						<form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
+						<form action="https://formspree.io/f/xpzkbprn" method="POST" id="contact-form">
 							<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 							<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 							<div class="first">
 								<ul>
 									<li>
-										<input id="name" type="text" placeholder="Name">
+										<input id="name" type="text" placeholder="Name" name="Name">
 									</li>
 									<li>
-										<input id="email" type="text" placeholder="Email">
+										<input id="email" type="text" placeholder="Email" name="Email" >
 									</li>
 								</ul>
 							</div>
 							<div class="last">
-								<textarea id="message" placeholder="Message"></textarea>
+								<textarea id="message" placeholder="Message" name="Message"></textarea>
 							</div>
-							<div class="shane_tm_button" data-position="left">
+							<button type="submit" class="shane_tm_button" data-position="left">
 								<a id="send_message" href="#">
 									<span>Send Message</span>
 								</a>
-							</div>
+							</button>
 
 							<!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
 
